@@ -149,9 +149,15 @@ if __name__ == "__main__":
 
 ### Output
 The type of triangle is: Equilateral
+
 The area of the triangle is: 6.928203230275511
+
 The perimeter of the triangle is: 12.0
+
 The area of the rectangle is: 12.0
+
 The perimeter of the rectangle is: 14.0
+
 The area of the square is: 4.0
+
 The perimeter of the square is: 8.0
