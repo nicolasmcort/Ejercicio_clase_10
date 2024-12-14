@@ -119,23 +119,23 @@ class Square(Rectangle):
         if not self.is_regular():
             raise ValueError("A square must have 4 equal sides and right angles")
 
-# Example usage
-if __name__ == "__main__":
-    # Triangle
-    triangle_points = [Point(0, 0), Point(4, 0), Point(2, math.sqrt(12))]
-    triangle = define_triangle(triangle_points)
-    print(f"The type of triangle is: {type(triangle).__name__}")
-    print(f"The area of the triangle is: {triangle.compute_area()}")
-    print(f"The perimeter of the triangle is: {triangle.compute_perimeter()}")
 
-    # Rectangle 
-    rectangle_points = [Point(0, 0), Point(4, 0), Point(4, 3), Point(0, 3)]
-    rectangle = Rectangle(rectangle_points)
-    print(f"The area of the rectangle is: {rectangle.compute_area()}")
-    print(f"The perimeter of the rectangle is: {rectangle.compute_perimeter()}")
+# Example of use
+# Triangle
+triangle_points = [Point(0, 0), Point(4, 0), Point(2, math.sqrt(12))]
+triangle = define_triangle(triangle_points)
+print(f"The type of triangle is: {type(triangle).__name__}")
+print(f"The area of the triangle is: {triangle.compute_area()}")
+print(f"The perimeter of the triangle is: {triangle.compute_perimeter()}")
 
-    # Square
-    square_points = [Point(0, 0), Point(2, 0), Point(2, 2), Point(0, 2)]
-    square = Square(square_points)
-    print(f"The area of the square is: {square.compute_area()}")
-    print(f"The perimeter of the square is: {square.compute_perimeter()}")
+# Rectangle 
+rectangle_points = [Point(0, 0), Point(4, 0), Point(4, 3), Point(0, 3)]
+rectangle = Rectangle(rectangle_points)
+print(f"The area of the rectangle is: {rectangle.compute_area()}")
+print(f"The perimeter of the rectangle is: {rectangle.compute_perimeter()}")
+
+# Square
+square_points = [Point(0, 0), Point(2, 0), Point(2, 2), Point(0, 2)]
+square = Square(square_points)
+print(f"The area of the square is: {square.compute_area()}")
+print(f"The perimeter of the square is: {square.compute_perimeter()}")
